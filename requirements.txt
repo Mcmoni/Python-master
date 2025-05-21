@@ -1,2 +1,1 @@
-print_function
-sys
+aiohttp==3.11.18
