@@ -1,35 +1,13 @@
-# hy your name 
-# Python-Assembler
-# WE need A FREE T-SHIRT
-This program is a simple assembler-like (intel-syntax) interpreter language. The program is written in python 3. 
-To start the program you will need to type 
+# Brickout-Game in pygame
 
-``` python assembler.py code.txt ```
+This is a simple brickout-game. It's includes ball, paddle, brick wall 
+and additional collision detection between these objects. Furthermore, logic for winning and losing and
+scoring. The game is written in **Python 2**. 
 
+You start the game with ```python game.py```
 
-After you hit 'enter' the program will interpret the source-code in 'code.txt'.
-You can use many textfiles as input. These will be interpreted one by one.
+The game runs with 60 frames per second. 
 
-You can find some examples in the directory 'examples'.
+I used a code sample for the basic structure of pygame from this site [http://programarcadegames.com/](http://programarcadegames.com/)
+The site contains a comprehensive introduction in Python and Pygame. In addition many many examples.
 
-For instance-
-
-``` 
-$msg db "hello world"
-
-mov ecx, $msg 
-mov eax, 4
-int 0x80
-mov eax, 1
-mov ebx, 0
-int 0x80
-``` 
-
-Will print onto console
-
-```
-hello world
-END PROGRAM
-```
-
-**Refer to GUIDE.txt to read a guide**
